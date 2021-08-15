@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Yomogi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+
+.work-title {
+	font-family: 'Shadows Into Light', cursive;
+    font-size: 60px;
+    text-decoration: underline;
+}
+.work-card {
+	width: 100%;
+    display: flex;
+    text-align: center;
+    margin: 0 auto; 
+    border: 0px;
+    min-width: 80%;
+    max-width: 80%;
+    justify-content: center;
+}
+Card.card__img {
+	text-align: left;
+}
+.work-explanation {
+    margin: 0 auto;
+    padding-top: 0;
+    padding-bottom: 63px;
+    font-size: 30px;
+    color: #ff7f7f;
+    font-family: 'Yomogi', cursive;
+    display: inline-block;
+    text-align: center;
+}

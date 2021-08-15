@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Yomogi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+
+.contact-title{
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 60px;
+    text-decoration: underline;
+}
+form{
+    width: 600px;
+    margin: 0 auto;
+}
+form p{
+    font-family: 'Yomogi', cursive;
+    text-align: center;
+    color: #ff7f7f;
+    font-weight: 600;
+}
+table.contact-list{
+    width: 600px;
+    border-collapse: collapse;
+    border: 1px solid #aaa;
+    margin: 10px 0 20px 0;
+}
+table.contact-list th, table.contact-list td{
+    border: 1px solid #aaa;
+    text-align: left;
+    vertical-align: middle;
+    padding: 10px 20px ;
+}
+table.contact-list th{
+    width: 900px;
+}
+table.label{
+    width: 900px;
+}
+input[type="text"],input[type="email"],input[type="nember"]{
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    font-size: 15px;
+}
+input[type="email"]{
+    width: 300px;
+}
+textarea{
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    width: 360px;
+    margin-right: 20px;
+    font-size: 15px;
+}
+.sub_button{
+    text-align: center;
+}
+.submit_btn{
+    font-family: 'Yomogi', cursive;
+    border: 1px solid #bbb0af;
+    border-radius: 5px;
+    padding: 10px 30px;
+    margin: 10px;
+    font-size: 20px;
+    background-color: #ac723b;
+    color: #ebe1bb;
+    cursor: pointer;
+}
+.submit_btn:hover{
+    border: 1px solid #442220;
+    background-color: #ac693c;
+    color: #dac77e;
+}

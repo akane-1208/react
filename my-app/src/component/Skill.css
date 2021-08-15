@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Yomogi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+
+.Skill-title {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 60px;
+    text-decoration: underline;
+}
+.inner {
+    margin: 0px auto;
+    padding-bottom: 63px;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+}
+.Skill-contents{
+    width: 50%;
+    display: inline-block;
+    text-align: center;
+    justify-content: center;
+}
+.Skill-card{
+    width: 500px;
+    display: inline-block;
+    text-align: center;
+    margin: 0 auto;
+    border: 1px #aaa;
+
+}
+.Skill-desk{
+    width: 500px;
+    text-align: center;
+    border: 1px solid #aaa;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+.Skill-table{
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+.Skill-table-title{
+    font-family: 'Yomogi', cursive;
+    font-size: 30px;
+    padding: 0px;
+    text-align: center;
+}
+.Skill-card td,th{
+    font-family: 'Yomogi', cursive;
+    font-size: 20px;
+    width: 50px;
+    height: 50px;
+    padding: 0px 10px;
+    vertical-align: middle;
+}

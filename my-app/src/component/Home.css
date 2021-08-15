@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yomogi&display=swap');
+
+.home {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 90px;
+    text-decoration: underline;
+}
+.home-explanation {
+    margin: 0 auto;
+    padding-top: 0;
+    padding-bottom: 63px;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Yomogi', cursive;
+}

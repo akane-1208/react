@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+.home-list2{
+    list-style: none;
+  overflow: hidden;
+  margin: 0px;
+  padding-left: 0px;
+}
+.home-list2 li {
+    font-family: 'Amatic SC', cursive;
+    font-size: 30px;
+    width: 20%;
+    text-align: center;
+    background-color: #333;
+    float: left;
+    height: 100px;
+    margin-right: 0px;
+    padding-top: 5px;
+    padding-left: 0px;
+}
+.home-list2 li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    padding: 0px;
+    cursor: pointer;
+}
