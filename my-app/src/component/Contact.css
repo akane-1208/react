@@ -16,6 +16,30 @@ form p{
     color: #ff7f7f;
     font-weight: 600;
 }
+.contact-submit-message {
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Yomogi', cursive;
+}
+.msg-btn {
+    margin: 20px;
+}
+.message-btn {
+    font-family: 'Yomogi', cursive;
+    border: 1px solid #bbb0af;
+    border-radius: 5px;
+    padding: 10px 30px;
+    margin: 10px;
+    font-size: 20px;
+    background-color: #ac723b;
+    color: #ebe1bb;
+    cursor: pointer;
+}
+.message-btn a {
+    text-decoration: none;
+}
 table.contact-list{
     width: 600px;
     border-collapse: collapse;

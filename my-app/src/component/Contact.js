@@ -1,6 +1,6 @@
 import React from 'react';
 import './Contact.css';
-
+import { Link } from 'react-router-dom';
 
 class ContactForm extends React.Component {
   constructor(props) {
@@ -20,6 +20,9 @@ class ContactForm extends React.Component {
       contactForm = (
         <div className='contact-submit-message'>
           送信完了
+          <div className='msg-btn'>
+            <button　className='message-btn'><Link to='/Home'>Homeに戻る</Link></button>
+          </div>
         </div>
       );
     } else {
